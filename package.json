@@ -10,7 +10,7 @@
     "width"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/wrap-text/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/wrap-text#readme"
+  "homepage": "https://github.com/IonicaBizau/wrap-text#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
