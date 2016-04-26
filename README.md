@@ -1,17 +1,18 @@
+
 # wrap-text [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/wrap-text.svg)](https://www.npmjs.com/package/wrap-text) [![Downloads](https://img.shields.io/npm/dt/wrap-text.svg)](https://www.npmjs.com/package/wrap-text) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Wrap text by a given width.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save wrap-text
 ```
 
-            
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 const wrapText = require("wrap-text");
@@ -21,6 +22,7 @@ console.log(wrapText("Amet ad minima expedita dicta itaque cum debitis odio cupi
 // =>
 // Amet ad minima expedita dicta itaque cum debitis odio cupiditate, animi. Libero
 // maiores quisquam consequuntur maiores nihil nobis. Cumque suscipit asperiores
+
 
 // 20 width
 console.log(wrapText(
@@ -67,9 +69,10 @@ Lorem eius ullam vero sequi exercitationem maiores nam possimus. Perspiciatis te
 // nostrum expedita blanditiis quas laboriosam ipsam
 // corporis. Est quasi ullam vero laborum perspiciatis
 ```
-    
+
 ## :memo: Documentation
-        
+
+
 ### `wrapText(input, width)`
 Wrap text by a given width.
 
@@ -80,14 +83,21 @@ Wrap text by a given width.
 #### Return
 - **String** The wrapped text.
 
-        
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
+
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
