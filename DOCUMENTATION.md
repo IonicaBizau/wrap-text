@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Wrap text by a given width.
 
 #### Params
+
 - **String** `input`: The input text.
 - **Number** `width`: The wrapping width.
 
