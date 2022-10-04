@@ -24,6 +24,9 @@
     "url": "https://github.com/IonicaBizau/wrap-text/issues"
   },
   "homepage": "https://github.com/IonicaBizau/wrap-text#readme",
+  "contributors": [
+    "Satvik Virmani <virmanisatvik01@gmail.com> (http://satvikvirmani.github.io)"
+  ],
   "files": [
     "bin/",
     "app/",
